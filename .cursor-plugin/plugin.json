@@ -1,18 +1,23 @@
 {
-  "name": "WebsitePublisher.ai",
-  "title": "WebsitePublisher AI",
+  "name": "websitepublisher",
+  "title": "WebsitePublisher.ai",
   "version": "1.0.0",
-  "description": "Manage WebsitePublisher websites, pages, entities, forms, publishing, and other website operations through Cursor.",
+  "description": "The AI web platform. Describe a website, app or store to any AI assistant — it goes live on a real URL with auth, payments, forms, integrations and memory built in.",
   "author": {
-    "name": "WebsitePublisher"
+    "name": "WebsitePublisher",
+    "email": "support@websitepublisher.ai"
   },
   "homepage": "https://www.websitepublisher.ai",
-  "repository" : "https://github.com/megberts/WebsitePublisher-cursor",
+  "repository": "https://github.com/megberts/websitepublisher-cursor",
+  "license": "MIT",
   "keywords": [
     "websitepublisher",
-    "website",
     "website-builder",
-    "mcp"
+    "ai-website-builder",
+    "mcp",
+    "webshop",
+    "cms",
+    "hosting"
   ],
-  "logo": "assets/websitepublisher.svg"
+  "logo": "assets/websitepublisher.png"
 }
