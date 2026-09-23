@@ -13,11 +13,9 @@ WebsitePublisher gives Cursor access to tools for managing websites, pages, enti
 ## Features
 
 - Manage WebsitePublisher websites
-- Create, update, and inspect pages
+- Create, update, and inspect pages (changes go live immediately)
 - Manage entities and entity data
 - Work with forms
-- Publish and unpublish content
-- Manage website publishing operations
 - Schedule website operations
 - Use WebsitePublisher through Cursor's AI tools
 - Authenticate securely with OAuth
@@ -32,7 +30,7 @@ For development or repository-based testing, install the plugin from this reposi
 
 ### Manual MCP configuration
 
-If the plugin is not available in your marketplace, add the following to your user MCP configuration at `%USERPROFILE%\\.cursor\\mcp.json`:
+If the plugin is not available in your marketplace, add the following to your user MCP configuration at `%USERPROFILE%\\.cursor\\mcp.json` (Windows) or `~/.cursor/mcp.json` (MacOS/Linux):
 
 ```json
 {
@@ -52,7 +50,7 @@ After installation, Cursor connects to the WebsitePublisher MCP server over Stre
 
 1. Sign in to your WebsitePublisher account, or create an account.
 2. Authorize Cursor to access WebsitePublisher.
-3. Return to Cursor and retry the request if necessary.
+3. Return to Cursor.
 
 Once authentication is complete, the WebsitePublisher tools become available in Agent mode.
 
@@ -79,8 +77,8 @@ The available tools include:
 - Pages, HTML, versions, and rollbacks
 - Assets such as images, CSS, JavaScript, JSON, and SVG files
 - Entities and records
-- Forms and submissions
-- Publishing and scheduling
+- Forms
+- Scheduling
 - Connected integrations
 
 For example:
@@ -103,10 +101,6 @@ List the entities available in this project.
 
 ```text
 Show me the fields of the <entity-name> entity.
-```
-
-```text
-Publish the <page-name> page.
 ```
 
 ```text
@@ -149,7 +143,7 @@ If a change made through Cursor is not visible on your website, verify the relev
 
 ### Manual configuration does not load
 
-Confirm that the file is located at `%USERPROFILE%\\.cursor\\mcp.json`, that it uses the `mcpServers` key, and that the server URL is exactly `https://mcp.websitepublisher.ai/`.
+Confirm that the file is located at `%USERPROFILE%\\.cursor\\mcp.json` (Windows) or `~/.cursor/mcp.json` (MacOS/Linux), that it uses the `mcpServers` key, and that the server URL is exactly `https://mcp.websitepublisher.ai/`.
 
 ## Links
 
