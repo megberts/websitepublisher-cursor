@@ -1,0 +1,18 @@
+{
+  "name": "WebsitePublisher.ai",
+  "title": "WebsitePublisher AI",
+  "version": "1.0.0",
+  "description": "Manage WebsitePublisher websites, pages, entities, forms, publishing, and other website operations through Cursor.",
+  "author": {
+    "name": "WebsitePublisher"
+  },
+  "homepage": "https://www.websitepublisher.ai",
+  "repository" : "https://github.com/alfandza/WebsitePublisher-cursor",
+  "keywords": [
+    "websitepublisher",
+    "website",
+    "website-builder",
+    "mcp"
+  ],
+  "logo": "assets/websitepublisher.svg"
+}
