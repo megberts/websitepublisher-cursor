@@ -31,7 +31,7 @@ For development or repository-based testing, install the plugin from this reposi
 
 ### Manual MCP configuration
 
-If the plugin is not available in your marketplace, add the following to your user MCP configuration at `%USERPROFILE%\.cursor\mcp.json` (Windows) or `~/.cursor/mcp.json` (MacOS/Linux) or `.cursor/mcp.json` in your project folder (project only):
+If the plugin is not available in your marketplace, add the following to your user MCP configuration at `%USERPROFILE%\.cursor\mcp.json` (Windows), `~/.cursor/mcp.json` (macOS/Linux) or `.cursor/mcp.json` in your project folder (project only):
 
 ```json
 {
@@ -144,7 +144,7 @@ Changes are live immediately. Hard-refresh the page (Cmd/Ctrl+Shift+R); if you u
 
 ### Manual configuration does not load
 
-Confirm that the file is located at `%USERPROFILE%\.cursor\mcp.json` (Windows) or `~/.cursor/mcp.json` (MacOS/Linux), that it uses the `mcpServers` key, and that the server URL is exactly `https://mcp.websitepublisher.ai/`.
+Confirm that the file is located at `%USERPROFILE%\.cursor\mcp.json` (Windows), `~/.cursor/mcp.json` (macOS/Linux) or .`cursor/mcp.json` in your project folder, that it uses the `mcpServers` key, and that the server URL is exactly `https://mcp.websitepublisher.ai/`.
 
 ## Links
 
