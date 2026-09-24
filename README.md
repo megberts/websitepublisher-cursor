@@ -1,8 +1,9 @@
 # WebsitePublisher for Cursor
 
-Manage your WebsitePublisher websites directly from [Cursor](https://cursor.com) using the Model Context Protocol (MCP).
+The AI web platform, inside [Cursor](https://cursor.com). Describe a website, app or store — it goes live on a real URL with auth, payments, forms, 114 integrations and memory built in.
 
-WebsitePublisher gives Cursor access to tools for managing websites, pages, entities, forms, publishing, scheduling, and other WebsitePublisher operations.
+WebsitePublisher gives Cursor tools for projects, pages, assets, data (entities and records), forms, integrations and scheduled tasks. Every change is live immediately — there is no separate publish step.
+
 
 ## Requirements
 
@@ -24,13 +25,13 @@ WebsitePublisher gives Cursor access to tools for managing websites, pages, enti
 
 ### Plugin installation
 
-Install **WebsitePublisher AI** from the Cursor Plugin Marketplace when it becomes available.
+Install **WebsitePublisher.ai** from the Cursor Plugin Marketplace when it becomes available.
 
 For development or repository-based testing, install the plugin from this repository using Cursor's local plugin workflow, then reload Cursor and open **Customize** to confirm that the WebsitePublisher MCP server is enabled.
 
 ### Manual MCP configuration
 
-If the plugin is not available in your marketplace, add the following to your user MCP configuration at `%USERPROFILE%\\.cursor\\mcp.json` (Windows) or `~/.cursor/mcp.json` (MacOS/Linux):
+If the plugin is not available in your marketplace, add the following to your user MCP configuration at `%USERPROFILE%\.cursor\mcp.json` (Windows) or `~/.cursor/mcp.json` (MacOS/Linux) or `.cursor/mcp.json` in your project folder (project only):
 
 ```json
 {
@@ -117,7 +118,7 @@ Build a portfolio website using WebsitePublisher with home, about, and contact p
 
 Cursor will select the appropriate WebsitePublisher tools to perform the requested operation.
 
-Review generated changes before publishing or deleting content. Page replacement, asset deletion, record deletion, and rollback operations can affect live websites.
+Review changes before applying them — every change goes live immediately. Page replacement, asset deletion, record deletion and rollback affect the live website.
 
 ## Troubleshooting
 
@@ -139,11 +140,11 @@ If the problem persists, contact WebsitePublisher support.
 
 ### Changes are not appearing
 
-If a change made through Cursor is not visible on your website, verify the relevant WebsitePublisher publishing status and refresh the website.
+Changes are live immediately. Hard-refresh the page (Cmd/Ctrl+Shift+R); if you use a custom domain, allow a moment for the CDN cache.
 
 ### Manual configuration does not load
 
-Confirm that the file is located at `%USERPROFILE%\\.cursor\\mcp.json` (Windows) or `~/.cursor/mcp.json` (MacOS/Linux), that it uses the `mcpServers` key, and that the server URL is exactly `https://mcp.websitepublisher.ai/`.
+Confirm that the file is located at `%USERPROFILE%\.cursor\mcp.json` (Windows) or `~/.cursor/mcp.json` (MacOS/Linux), that it uses the `mcpServers` key, and that the server URL is exactly `https://mcp.websitepublisher.ai/`.
 
 ## Links
 
