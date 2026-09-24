@@ -1,8 +1,9 @@
 # WebsitePublisher for Cursor
 
-Manage your WebsitePublisher websites directly from [Cursor](https://cursor.com) using the Model Context Protocol (MCP).
+The AI web platform, inside [Cursor](https://cursor.com). Describe a website, app or store — it goes live on a real URL with auth, payments, forms, 114 integrations and memory built in.
 
-WebsitePublisher gives Cursor access to tools for managing websites, pages, entities, forms, scheduling, and other WebsitePublisher operations.
+WebsitePublisher gives Cursor tools for projects, pages, assets, data (entities and records), forms, integrations and scheduled tasks. Every change is live immediately — there is no separate publish step.
+
 
 ## Requirements
 
